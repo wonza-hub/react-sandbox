@@ -6,6 +6,7 @@ import HardCalculation from "./pages/use-memo/hard-calculation";
 import ObjectMemo from "./pages/use-memo/object-memo";
 import SomeFunction from "./pages/use-callback/some-function";
 import BoxStyle from "./pages/use-callback/box-style";
+import LottoNumbers from "./pages/throttle/lotto-numbers";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/box-style",
     element: <BoxStyle />,
+  },
+  {
+    path: "/lotto-numbers",
+    element: <LottoNumbers />,
   },
 ]);
 export default function Router() {
